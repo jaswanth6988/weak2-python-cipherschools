@@ -1,0 +1,45 @@
+#Object Oriented Programming
+#Abstraction
+#Encapsulation
+#Polymorphism
+#Inheritance
+
+#Abstractions = need to know basics
+student1 = {
+    "name": "jaswanth mango"
+    "marks": 50
+               }
+
+student2 = {
+    "name": "John"
+    "marks": 100 
+               }
+print()
+
+class person:
+    pass
+person p 
+print(p)
+
+#python object can have multiple attributes
+#-callable (e.g.functions and classes)
+#-iterable (e.g.lists,strings,generator)
+#-contextable(e.g.files)
+
+class person:
+    pass
+p=person
+print(p)
+
+a=1
+def square(a):
+    print(a**2)
+with a:
+    square()
+    
+class person:
+    name="jaswanth"
+    def say_hi(self):
+        print(f"Hello Everyone : I am (self.name)")
+p=person()
+p.say_hi(p)
